@@ -1,13 +1,8 @@
-const wpPlugin = require( '@wordpress/eslint-plugin' );
+const wpPlugin = require("@wordpress/eslint-plugin");
 
 module.exports = [
 	{
-		ignores: [
-			'**/build/**',
-			'**/node_modules/**',
-			'**/vendor/**',
-			'*.config.js',
-		],
+		ignores: ["**/build/**", "**/node_modules/**", "**/vendor/**"],
 	},
-	...wpPlugin.configs.recommended
+	...wpPlugin.configs.recommended,
 ];
