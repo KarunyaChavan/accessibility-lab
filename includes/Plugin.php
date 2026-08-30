@@ -11,7 +11,6 @@ namespace AccessibilityLab;
 
 use AccessibilityLab\Admin\Settings_Page;
 use AccessibilityLab\Modules\Experiments\Block_Validation_Framework;
-use AccessibilityLab\Modules\Experiments\Heading_Order;
 use AccessibilityLab\Modules\Features\Core_Block_Validation_Rules;
 use AccessibilityLab\Modules\Features\Media_Library_View_Config;
 use AccessibilityLab\Modules\Features\Validation_Settings;
@@ -84,7 +83,6 @@ final class Plugin {
 
 	private function register_first_party_modules(): void {
 		$this->registry->register( new Media_Library_View_Config() );
-		$this->registry->register( new Heading_Order() );
 		$this->registry->register( new Block_Validation_Framework() );
 		$this->registry->register( new Core_Block_Validation_Rules() );
 		$this->registry->register( new Validation_Settings() );

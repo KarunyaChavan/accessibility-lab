@@ -154,7 +154,6 @@ includes/
         Level_Override.php       Hooks validation_api_check_level
         Rest_Controller.php      /accessibility-lab/v1/validation-settings
     Experiments/
-      Heading_Order.php
       Block_Validation_Framework.php
       BlockValidation/
         Check_Registry.php       In-memory check store
