@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased] - TBD
 
+### Removed
+
+- `Heading_Order` experiment module — an empty stub that registered no checks, so its Settings toggle had no effect. Heading level-order validation is provided by the `check_heading_rank` check in "Core block accessibility rules".
+
 ### Added
 
 - `validation_api_register_namespace()` global function so a plugin can register a human-readable display name once, instead of repeating `plugin_title` on every check.
