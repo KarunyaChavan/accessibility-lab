@@ -4,6 +4,21 @@
     "description": "Accessibility Lab — Features and Experiments for WordPress.",
     "license": "GPL-2.0-or-later",
     "private": true,
+    "engines": {
+        "node": ">=24.21.0",
+        "npm": ">=11.19.0"
+    },
+    "devEngines": {
+        "runtime": {
+            "name": "node",
+            "version": ">=24.21.0"
+        },
+        "packageManager": {
+            "name": "npm",
+            "version": ">=11.19.0",
+            "onFail": "error"
+        }
+    },
     "scripts": {
         "build": "wp-scripts build",
         "start": "wp-scripts start",
